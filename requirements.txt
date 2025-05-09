@@ -1,0 +1,48 @@
+# --- Core MCP and LlamaIndex ---
+fastmcp
+llama-index
+llama-index-llms-ollama
+llama-index-embeddings-fastembed
+llama-index-embeddings-huggingface
+llama-index-embeddings-ollama
+fastembed
+llama-index-vector-stores-postgres
+
+# --- Database & Utilities ---
+psycopg2-binary # For PostgreSQL connection
+SQLAlchemy # Often a dependency for LlamaIndex DB integrations, and for make_url
+python-dotenv # For .env file support
+
+# --- Crawling & Web Parsing (for RAGasaurus and adapter) ---
+httpx # For asynchronous HTTP requests
+beautifulsoup4 # For HTML/XML parsing
+crawl4ai # Advanced web crawling library
+requests # For synchronous HTTP requests (present in RAGasaurus _parse_sitemap)
+playwright # For web crawling
+
+# --- Supporting Embedding Libraries (FastEmbed might use ST to load models) ---
+sentence-transformers # Often used by FastEmbed or HuggingFaceEmbedding to load models
+
+# --- CLI Support ---
+typer[all] # For command line interface support
+
+# --- Optional: Other LlamaIndex embedding options (if you switch from FastEmbed) ---
+# llama-index-embeddings-huggingface
+# llama-index-embeddings-ollama
+
+# --- Optional: For development or specific tasks ---
+# black # For code formatting
+# ruff  # For linting
+# pytest # For testing
+# ipython # For interactive debugging
+# jupyter # If you use notebooks for experimentation
+
+# --- Transitive dependencies (pip will handle these, but good to be aware) ---
+# numpy
+# pandas (sometimes pulled in by LlamaIndex components)
+# pydantic (core to LlamaIndex and MCP)
+# typing-inspect
+# typing-extensions
+# PyYAML (for configuration if you use YAML)
+# ONNX / ONNXRuntime (pulled in by fastembed)
+# protobuf (pulled in by ONNX)
