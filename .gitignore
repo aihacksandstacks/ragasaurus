@@ -1,1 +1,148 @@
- 
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.cache
+
+# Distribution / packaging
+dist/
+build/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# C extensions
+*.so
+
+# Local data
+ragasaurus_data/
+data/
+uploads/
+
+# Log files
+*.log
+logs/
+
+# Environment variables
+.env
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Test and coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# Docker
+docker-compose.override.yml
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+.coverage
+htmlcov/
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# Data files
+data/
+uploads/
+
+# Cache files
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+.coverage
+htmlcov/
+
+# Docker
+docker-compose.override.yml
+**/.claude/settings.local.json
+
+.cursor/
+.context/
+.claude/
+claude_code_suggestions.md
+CLAUDE.md
+PROGRESS.md
